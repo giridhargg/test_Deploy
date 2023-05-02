@@ -35,7 +35,8 @@ model.load_weights(weights_file)
 
 @app.route('/')
 def home():
-    return render_template("ui.html")
+    return jsonify("helloworld")
+    # return render_template("ui.html")
 
 @app.route('/predict', methods = ['POST'])
 def predict():
