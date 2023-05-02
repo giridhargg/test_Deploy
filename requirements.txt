@@ -1,4 +1,4 @@
 Flask
-keras
 uwsgi
 gunicorn
+tensorflow
