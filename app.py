@@ -9,11 +9,11 @@ app.config["APPLICATION_ROOT"] = "/api/"
 
 THIS_FOLDER = Path(__file__).parent.resolve()
 
-model = get_model()
+# model = get_model()
 
-weights_file = THIS_FOLDER / "weights.h5"
+# weights_file = THIS_FOLDER / "weights.h5"
 
-model.load_weights(weights_file)
+# model.load_weights(weights_file)
 
 # from flask import Flask, jsonify
 
