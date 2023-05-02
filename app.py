@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request, render_template
-from model import get_model
+# from model import get_model
 
 from pathlib import Path
 
