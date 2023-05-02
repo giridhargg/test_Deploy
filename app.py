@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.config["APPLICATION_ROOT"] = "/api/"
 
 
-THIS_FOLDER = Path(__file__).parent.resolve()
+# THIS_FOLDER = Path(__file__).parent.resolve()
 
 # model = get_model()
 
