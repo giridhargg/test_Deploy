@@ -19,6 +19,11 @@ from flask import Flask, jsonify, request, render_template
 from model import get_model
 
 from pathlib import Path
+
+app = Flask(__name__)
+app.config["APPLICATION_ROOT"] = "/api/"
+
+
 THIS_FOLDER = Path(__file__).parent.resolve()
 
 model = get_model()
@@ -27,7 +32,6 @@ weights_file = THIS_FOLDER / "weights.h5"
 
 model.load_weights(weights_file)
 
-app = Flask(__name__)
 
 @app.route('/')
 def home():
