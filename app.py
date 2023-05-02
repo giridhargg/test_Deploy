@@ -8,12 +8,12 @@ from pathlib import Path
 app = Flask(__name__)
 app.config["APPLICATION_ROOT"] = "/api/"
 
-model = Sequential()
-model.add(Dense(8,input_dim=7,activation="relu"))
-model.add(Dense(5,activation='relu'))
+# model = Sequential()
+# model.add(Dense(8,input_dim=7,activation="relu"))
+# model.add(Dense(5,activation='relu'))
 
-model.add(Dense(3,activation='relu'))
-model.add(Dense(1,activation='sigmoid'))
+# model.add(Dense(3,activation='relu'))
+# model.add(Dense(1,activation='sigmoid'))
 
 
 # THIS_FOLDER = Path(__file__).parent.resolve()
