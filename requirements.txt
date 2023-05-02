@@ -2,4 +2,3 @@ Flask
 uwsgi
 gunicorn
 tensorflow
-keras
