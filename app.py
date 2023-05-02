@@ -1,8 +1,9 @@
 from flask import Flask, jsonify
 
 app = Flask(__name__)
+app.config["APPLICATION_ROOT"] = "/api/"
 
-@app.route('/api')
+@app.route('/')
 def home():
     return jsonify("hello world")
 
