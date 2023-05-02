@@ -1,4 +1,4 @@
 Flask
 uwsgi
 gunicorn
-tensorflow
+tensorflow-cpu
