@@ -6,7 +6,7 @@ from model import get_model
 from pathlib import Path
 
 app = Flask(__name__)
-app.config["APPLICATION_ROOT"] = "/api/"
+# app.config["APPLICATION_ROOT"] = "/api/"
 
 THIS_FOLDER = Path(__file__).parent.resolve()
 
